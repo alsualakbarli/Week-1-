@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+        int intValue = 42;
+
+        // b. Print out the same value in different formats
+        System.out.println("Decimal: " + intValue);
+        System.out.println("Hexadecimal: " + Integer.toHexString(intValue));
+        System.out.println("Octal: " + Integer.toOctalString(intValue));
+        System.out.println();
+
+        // c. Create a variable of type float and assign it a value
+        float floatValue = 123.456f;
+
+        // d. Print out the same value in different formats
+        System.out.println("Decimal Floating-Point: " + floatValue);
+        System.out.printf("Scientific Notation: %.4e%n", floatValue);
+        System.out.printf("Formatted: %.2f%n", floatValue);
+
+    }
+}
